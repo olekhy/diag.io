@@ -1,97 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T11:29:14.761Z" agent="5.0 (X11; Ubuntu)" etag="KgHjk6l0G1_rHKXnXNbA" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T08:42:49.331Z" agent="5.0 (X11; Ubuntu)" etag="ZkVFaLFb8tPWt49r2Qgj" version="20.8.15" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="986" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="PBP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="80" width="100" height="300" as="geometry" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-1" value="BP Login API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="80" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#0000FF;" vertex="1" parent="bUyerrPxswksTXFSrLV1-1">
+          <mxGeometry x="35" y="90" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="bUyerrPxswksTXFSrLV1-5" value="BP Web" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="bUyerrPxswksTXFSrLV1-5">
+          <mxGeometry x="35" y="70" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-29" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="bUyerrPxswksTXFSrLV1-5">
+          <mxGeometry x="48" y="90" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="bUyerrPxswksTXFSrLV1-5">
+          <mxGeometry x="58" y="110" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-9" value="Google OAuth" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF0080;" vertex="1" parent="bUyerrPxswksTXFSrLV1-9">
+          <mxGeometry x="36" y="70" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-20" value="TokenValidator" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="222" y="120" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF8000;" vertex="1" parent="bUyerrPxswksTXFSrLV1-20">
+          <mxGeometry x="35" y="110" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-28" value="return google user data" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.909;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;anchorPointDirection=1;snapToPoint=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF8000;" edge="1" parent="1" source="bUyerrPxswksTXFSrLV1-22" target="bUyerrPxswksTXFSrLV1-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+            <mxPoint x="120" y="330" as="targetPoint" />
+            <mxPoint x="175" y="329.03999999999996" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="SOME_APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="236" as="targetPoint" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-30" value="return current user role" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#0000FF;exitX=0;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0637" relative="1" as="geometry">
+            <mxPoint x="88" y="354" as="targetPoint" />
+            <mxPoint x="355" y="354" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="dispatch" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="bUyerrPxswksTXFSrLV1-33" value="verify google token" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;entryX=0;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF8000;" edge="1" parent="1" source="bUyerrPxswksTXFSrLV1-8" target="bUyerrPxswksTXFSrLV1-22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="160" as="sourcePoint" />
+            <mxPoint x="110" y="243" as="sourcePoint" />
+            <mxPoint x="250" y="244" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="callback" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="200" as="sourcePoint" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-35" value="BP API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="120" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-37" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="bUyerrPxswksTXFSrLV1-35">
+          <mxGeometry x="35" y="138" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bUyerrPxswksTXFSrLV1-40" value="return current user role" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;entryX=1;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.1;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0080;" edge="1" parent="1" source="bUyerrPxswksTXFSrLV1-10" target="bUyerrPxswksTXFSrLV1-6">
+          <mxGeometry x="0.2227" y="1" relative="1" as="geometry">
+            <mxPoint x="141" y="377" as="targetPoint" />
+            <mxPoint x="450" y="377" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="257" as="targetPoint" />
+        <object label="&lt;div&gt;sign in via client ID&lt;/div&gt;" authenticate="" id="bUyerrPxswksTXFSrLV1-13">
+          <mxCell style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;html=1;exitX=1;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;rounded=0;entryX=0.1;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0080;" edge="1" parent="1" source="bUyerrPxswksTXFSrLV1-6" target="bUyerrPxswksTXFSrLV1-10">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="355" y="200" as="sourcePoint" />
+              <mxPoint x="450" y="200" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="bUyerrPxswksTXFSrLV1-19" value="dispatch user email" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;exitX=1;exitY=0.073;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#0000FF;entryX=0;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bUyerrPxswksTXFSrLV1-29" target="bUyerrPxswksTXFSrLV1-2">
+          <mxGeometry x="-0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="223.04999999999995" as="sourcePoint" />
+            <mxPoint x="350" y="221" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-1" value="BP Login API&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="80" width="80" height="300" as="geometry" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-43" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="254" width="10" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="bUyerrPxswksTXFSrLV1-1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="bUyerrPxswksTXFSrLV1-1" target="bUyerrPxswksTXFSrLV1-2">
+        <mxCell id="bUyerrPxswksTXFSrLV1-46" value="resource op" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;labelBackgroundColor=none;fontColor=default;rounded=0;exitX=1.2;exitY=0.302;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+            <mxPoint x="112" y="280.02599999999995" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="bUyerrPxswksTXFSrLV1-1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-5" value="BP Web" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="80" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="bUyerrPxswksTXFSrLV1-5">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-7" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="bUyerrPxswksTXFSrLV1-5" target="bUyerrPxswksTXFSrLV1-6">
+        <mxCell id="bUyerrPxswksTXFSrLV1-48" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.86;shadow=0;strokeWidth=1;labelBackgroundColor=none;fontColor=default;rounded=0;anchorPointDirection=1;snapToPoint=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="bUyerrPxswksTXFSrLV1-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+            <mxPoint x="110" y="300" as="targetPoint" />
+            <mxPoint x="120" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="bUyerrPxswksTXFSrLV1-5">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-49" value="&lt;div&gt;User Authentication / Authorization &lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="23" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-9" value="Google OAuth" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="80" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="bUyerrPxswksTXFSrLV1-9">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="bUyerrPxswksTXFSrLV1-9">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-13" value="dispatch" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="bUyerrPxswksTXFSrLV1-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-65" y="80" as="sourcePoint" />
-            <mxPoint x="45" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="260" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bUyerrPxswksTXFSrLV1-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry y="120" width="30" height="60" as="geometry" />
+        <mxCell id="bUyerrPxswksTXFSrLV1-51" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;Legend&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;BP Web: &lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; Berechtigungsprovider Webseite&lt;br&gt;&lt;br&gt;&lt;b&gt;BP API: &lt;/b&gt;&lt;br&gt;&amp;nbsp; RESTful API which provide endpoints to operating with BP resources like user and web apps &lt;br&gt;&lt;br&gt;&lt;b&gt;Token Validator:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Program code in the BP Web stack&lt;br&gt;&lt;br&gt;&lt;b&gt;BP Login API: &lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Endpoint which provide user information like role and&amp;nbsp; user ID &lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Section 2.1&lt;br&gt;Section 2.2&lt;br&gt;Section 2.3&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=left;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="310" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
