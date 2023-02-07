@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T11:42:16.125Z" agent="5.0 (X11; Ubuntu)" etag="p6_xaXCw5ZAwy3TJIDF8" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T11:50:24.171Z" agent="5.0 (X11; Ubuntu)" etag="YhXr_thxT3Om60cfNuNU" version="20.8.15" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="845" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -108,205 +108,202 @@
           <mxGeometry x="518" y="120" width="310" height="250" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-3" value="BP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="540" width="60" height="296" as="geometry" />
+          <mxGeometry x="40" y="661" width="60" height="296" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-3">
-          <mxGeometry x="20" y="70" width="10" height="200" as="geometry" />
+          <mxGeometry x="20" y="79" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="447" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="577" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-23" value="Register web app roles in Berechtigungsprovider" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="336" y="438" width="50" height="40" as="geometry" />
+          <mxGeometry x="335" y="577" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-29" value="Web Manifest API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fontSize=10;spacing=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="130" y="540" width="90" height="297" as="geometry" />
+          <mxGeometry x="130" y="661" width="90" height="297" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#0000FF;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-29">
-          <mxGeometry x="39" y="69" width="10" height="201" as="geometry" />
+          <mxGeometry x="39" y="78" width="10" height="201" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-32" value="get  roles" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="670" as="sourcePoint" />
-            <mxPoint x="170" y="670" as="targetPoint" />
+            <mxPoint x="70" y="800" as="sourcePoint" />
+            <mxPoint x="170" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-33" value="BP Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fontSize=10;spacing=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="250" y="540" width="70" height="296" as="geometry" />
+          <mxGeometry x="250" y="661" width="70" height="296" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-34" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#0000FF;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-33">
-          <mxGeometry x="31" y="69" width="10" height="201" as="geometry" />
+          <mxGeometry x="31" y="78" width="10" height="201" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-35" value="Persist web app roles in storage" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;exitX=1;exitY=0.514;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7qIYYIkFtQ4Tq7SQcxO7-4">
           <mxGeometry x="-0.0164" y="11" relative="1" as="geometry">
-            <mxPoint x="80" y="712" as="sourcePoint" />
-            <mxPoint x="280" y="713" as="targetPoint" />
+            <mxPoint x="80" y="842" as="sourcePoint" />
+            <mxPoint x="280" y="843" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-40" value="BP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="978" width="50" height="297" as="geometry" />
+          <mxGeometry x="40" y="1212" width="50" height="297" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-41" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-40">
           <mxGeometry x="20" y="72" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-42" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="39" y="886" width="30" height="60" as="geometry" />
+          <mxGeometry x="39" y="1120" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-43" value="Web app API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="979" width="80" height="295" as="geometry" />
+          <mxGeometry x="140" y="1213" width="80" height="295" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-44" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF8000;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-43">
           <mxGeometry x="35" y="72" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-51" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; border=&quot;1&quot;&gt;&lt;tbody style=&quot;font-size: 6px;&quot;&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;Legend&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;BP API: &lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; Berechtigungsprovider API die dazu da sind dass man dass machen kann unter umständen&lt;br&gt;&lt;br&gt;&lt;b&gt;User Data API: &lt;/b&gt;&lt;br&gt;&amp;nbsp; RESTful API which provide endpoints to gathering user data &lt;br&gt;&lt;br&gt;&lt;span class=&quot;model-box&quot;&gt;&lt;/span&gt;&lt;table class=&quot;model&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;property-row required&quot;&gt;&lt;td&gt;email&lt;span class=&quot;star&quot;&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;model&quot;&gt;&lt;span class=&quot;prop&quot;&gt;&lt;span class=&quot;prop-type&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;property primitive&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;property-row&quot;&gt;&lt;td&gt;firstname&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;model&quot;&gt;&lt;span class=&quot;prop&quot;&gt;&lt;span class=&quot;prop-type&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;property primitive&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;property-row&quot;&gt;&lt;td&gt;lastname&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;model&quot;&gt;&lt;span class=&quot;prop&quot;&gt;&lt;span class=&quot;prop-type&quot;&gt;string&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;property-row required&quot;&gt;&lt;td&gt;visible&lt;span class=&quot;star&quot;&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;model&quot;&gt;&lt;span class=&quot;prop&quot;&gt;&lt;span class=&quot;prop-type&quot;&gt;boolean&lt;/span&gt;&lt;span class=&quot;property primitive&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;property-row required&quot;&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;property-row&quot;&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;property-row&quot;&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Webapp Data API: &lt;/b&gt;&lt;br&gt;&amp;nbsp; RESTful API which provide endpoints to gathering data of Webapps is list with filter and sorting&amp;nbsp; &lt;br&gt;&lt;br&gt;name*&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; string&lt;br&gt;shortName*:string&lt;br&gt;startUrl*:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; string&lt;br&gt;category*:&amp;nbsp;&amp;nbsp;&amp;nbsp; string&lt;br&gt;example*&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Enum:&lt;br&gt;description: string&lt;br&gt;default:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; string&lt;br&gt;visible*&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; boolean&lt;br&gt;&lt;br&gt;&lt;b&gt;Webapp Manifest API:&lt;/b&gt;&lt;br&gt;Leifert ein JSON Struct mit Berrechtigungsobjekten die in der Webapp realisiert sind&lt;br&gt;EG:&lt;br&gt;&lt;div class=&quot;json-preview&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div class=&quot;json-output&quot;&gt;&lt;div class=&quot;attribute&quot;&gt;&lt;span class=&quot;key-json&quot;&gt;&lt;/span&gt;&lt;span class=&quot;key-json&quot;&gt;&quot;scope&quot;&lt;/span&gt; : string, example:&amp;nbsp; &lt;span class=&quot;value-json&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;attribute&quot;&gt;&lt;span class=&quot;key-json&quot;&gt;&quot;roles&quot;&lt;/span&gt; : Enum of Strings, example [&quot;VEOLIA&quot;, &quot;TRAMPAMPAM&quot;]&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&amp;nbsp; &lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Section 2.1&lt;br&gt;Section 2.2&lt;br&gt;Section 2.3&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;align=left;" vertex="1" parent="1">
-          <mxGeometry x="429" y="516" width="310" height="323" as="geometry" />
-        </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-52" value="User API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="269" y="980" width="71" height="295" as="geometry" />
+          <mxGeometry x="269" y="1214" width="71" height="295" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-53" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF8000;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-52">
           <mxGeometry x="31" y="72" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-55" value="get user" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry x="-0.0164" y="11" relative="1" as="geometry">
-            <mxPoint x="70" y="1082" as="sourcePoint" />
-            <mxPoint x="300" y="1082" as="targetPoint" />
+            <mxPoint x="70" y="1316" as="sourcePoint" />
+            <mxPoint x="300" y="1316" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-56" value="get web app" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;exitX=1.129;exitY=0.354;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7qIYYIkFtQ4Tq7SQcxO7-41">
           <mxGeometry x="-0.0164" y="11" relative="1" as="geometry">
-            <mxPoint x="80" y="1122" as="sourcePoint" />
-            <mxPoint x="180" y="1121" as="targetPoint" />
+            <mxPoint x="80" y="1356" as="sourcePoint" />
+            <mxPoint x="180" y="1355" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-57" value="BP Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fontSize=10;spacing=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="386" y="980" width="59" height="296" as="geometry" />
+          <mxGeometry x="386" y="1214" width="59" height="296" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-58" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#0000FF;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-57">
           <mxGeometry x="24" y="71" width="10" height="201" as="geometry" />
         </mxCell>
-        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-59" value="get user role" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;exitX=1.167;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.167;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qIYYIkFtQ4Tq7SQcxO7-41">
+        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-59" value="user role" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;exitX=1.167;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.167;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qIYYIkFtQ4Tq7SQcxO7-41">
           <mxGeometry x="0.0053" y="-9" relative="1" as="geometry">
-            <mxPoint x="410" y="1170" as="sourcePoint" />
-            <mxPoint x="80" y="1168" as="targetPoint" />
+            <mxPoint x="410" y="1404" as="sourcePoint" />
+            <mxPoint x="80" y="1402" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-60" value="store user (webapp, role)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;exitX=1.129;exitY=0.76;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.761;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qIYYIkFtQ4Tq7SQcxO7-41" target="7qIYYIkFtQ4Tq7SQcxO7-58">
           <mxGeometry x="0.0381" y="10" relative="1" as="geometry">
-            <mxPoint x="90" y="1202" as="sourcePoint" />
-            <mxPoint x="240" y="1202" as="targetPoint" />
+            <mxPoint x="90" y="1436" as="sourcePoint" />
+            <mxPoint x="240" y="1436" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-61" value="Assign user role in a web app" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="101" y="879" width="300" height="40" as="geometry" />
+        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-61" value="Assign role in a web app" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1120" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-62" value="BP API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1440" width="60" height="320" as="geometry" />
+          <mxGeometry x="350" y="1690" width="60" height="320" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-83" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#0000FF;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-62">
           <mxGeometry x="25" y="69" width="10" height="221" as="geometry" />
         </mxCell>
-        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-64" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="37" y="1350" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-65" value="Web app&#xa;API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="136" y="1440" width="70" height="320" as="geometry" />
+          <mxGeometry x="136" y="1690" width="70" height="320" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-66" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF8000;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-65">
           <mxGeometry x="29" y="70" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-67" value="Generator&#xa;Token" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1440" width="58" height="297" as="geometry" />
+          <mxGeometry x="460" y="1690" width="58" height="297" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-68" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF8000;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-67">
           <mxGeometry x="24" y="70" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-75" value="Auth &amp;amp; Authorization an user against BP" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="154.5" y="1350" width="300" height="40" as="geometry" />
+        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-75" value="Auth &amp;amp; Authorization against BP" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="112" y="1599" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-76" value="Google&#xa;OAuth" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1440" width="70" height="320" as="geometry" />
+          <mxGeometry x="240" y="1690" width="70" height="320" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-77" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF0080;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-76">
           <mxGeometry x="29" y="70" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-78" value="Web app" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="42" y="1440" width="60" height="320" as="geometry" />
+          <mxGeometry x="42" y="1690" width="60" height="320" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-79" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#FF0080;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-78">
           <mxGeometry x="24" y="70" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-80" value="get google token" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry x="0.0381" y="10" relative="1" as="geometry">
-            <mxPoint x="76.66666666666674" y="1523.9999999999998" as="sourcePoint" />
-            <mxPoint x="270" y="1524" as="targetPoint" />
+            <mxPoint x="76.66666666666674" y="1773.9999999999998" as="sourcePoint" />
+            <mxPoint x="270" y="1774" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-81" value="send  Google token" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry x="-0.0222" y="10" relative="1" as="geometry">
-            <mxPoint x="76" y="1560" as="sourcePoint" />
-            <mxPoint x="166" y="1560" as="targetPoint" />
+            <mxPoint x="76" y="1810" as="sourcePoint" />
+            <mxPoint x="166" y="1810" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-84" value="generateToken(user, webapp)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;exitX=1.029;exitY=0.183;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7qIYYIkFtQ4Tq7SQcxO7-83">
           <mxGeometry x="0.0381" y="10" relative="1" as="geometry">
-            <mxPoint x="352" y="1550" as="sourcePoint" />
-            <mxPoint x="480" y="1549" as="targetPoint" />
+            <mxPoint x="352" y="1800" as="sourcePoint" />
+            <mxPoint x="480" y="1799" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-85" value="JWT was generated" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;anchorPointDirection=1;snapToPoint=1;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="176" y="1634" as="targetPoint" />
-            <mxPoint x="481" y="1635" as="sourcePoint" />
+            <mxPoint x="176" y="1884" as="targetPoint" />
+            <mxPoint x="481" y="1885" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-86" value="request with JWT" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry x="-0.0164" y="11" relative="1" as="geometry">
-            <mxPoint x="80" y="1698" as="sourcePoint" />
-            <mxPoint x="165" y="1698" as="targetPoint" />
+            <mxPoint x="80" y="1948" as="sourcePoint" />
+            <mxPoint x="165" y="1948" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-87" value="response" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;anchorPointDirection=1;snapToPoint=1;strokeColor=#FF8000;entryX=1.084;entryY=0.954;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qIYYIkFtQ4Tq7SQcxO7-65" target="7qIYYIkFtQ4Tq7SQcxO7-79">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="82" y="1720" as="targetPoint" />
-            <mxPoint x="152" y="1720" as="sourcePoint" />
+            <mxPoint x="82" y="1970" as="targetPoint" />
+            <mxPoint x="152" y="1970" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-88" value="BP Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fontSize=10;spacing=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1440" width="59" height="298" as="geometry" />
+          <mxGeometry x="570" y="1690" width="59" height="298" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-89" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#0000FF;" vertex="1" parent="7qIYYIkFtQ4Tq7SQcxO7-88">
           <mxGeometry x="25" y="69" width="10" height="201" as="geometry" />
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-90" value="lookup (user, webapp): role" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;entryX=0;entryY=0.474;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qIYYIkFtQ4Tq7SQcxO7-89">
           <mxGeometry x="0.0381" y="10" relative="1" as="geometry">
-            <mxPoint x="500" y="1604" as="sourcePoint" />
-            <mxPoint x="542" y="1601" as="targetPoint" />
+            <mxPoint x="500" y="1854" as="sourcePoint" />
+            <mxPoint x="542" y="1851" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-95" value="send user email, web app, google token" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry x="0.0381" y="10" relative="1" as="geometry">
-            <mxPoint x="176" y="1580" as="sourcePoint" />
-            <mxPoint x="375.5000000000002" y="1579.9999999999998" as="targetPoint" />
+            <mxPoint x="176" y="1830" as="sourcePoint" />
+            <mxPoint x="375.5000000000002" y="1829.9999999999998" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-96" value="return JWT" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;rounded=0;anchorPointDirection=1;snapToPoint=1;strokeColor=#FF8000;" edge="1" parent="1">
           <mxGeometry x="0.0011" relative="1" as="geometry">
-            <mxPoint x="75" y="1648" as="targetPoint" />
-            <mxPoint x="165" y="1648" as="sourcePoint" />
+            <mxPoint x="75" y="1898" as="targetPoint" />
+            <mxPoint x="165" y="1898" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7qIYYIkFtQ4Tq7SQcxO7-97" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="39" y="1599" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
